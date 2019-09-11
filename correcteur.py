@@ -82,11 +82,11 @@ if __name__ == '__main__':
 				chemin = arg
 			elif opt in ["-o", "--output"]:
 				chemout = arg
-	except:
-		print("la systaxe est:\ncorrecteur.py -i input_file.txt -o output_file.txt")
-		sys.exit(0)
-	else:
 		correction = Correction(chemin)
 		# print(correction, file=chemout)
 		with open(chemout, "w") as out:
 			out.write(str(correction))
+	except:
+		print("la systaxe est:\ncorrecteur.py -i input_file.txt -o output_file.txt")
+		sys.exit(0)
+		
