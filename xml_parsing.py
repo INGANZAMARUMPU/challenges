@@ -1,7 +1,4 @@
 from lxml import etree
-from _io import StringIO, BytesIO
-
-import xmltodict 
 
 xml = """<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.ussd/">
     <soapenv:Header />
@@ -30,18 +27,20 @@ xml = """<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
     </soapenv:Body>
 </soapenv:Envelope>
 """
-root = etree.fromstring(xml)
 
-def xmlToDict(root):
+def rootToDict(root):
     tags = {}
     for el in root:
         if(type(el) == etree._Element):
             key = el.tag.split('}')[-1]
-            content = xmlToDict(el)
+            content = rootToDict(el)
             if(content == {}):
                 tags[key] = el.text
             else:
                 tags[key] = content
     return tags
 
-print(xmlToDict(root))
+def xmlToDict(xml):
+    return rootToDict(etree.fromstring(xml))
+
+print(xmlToDict(xml))
