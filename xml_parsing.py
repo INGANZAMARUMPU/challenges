@@ -32,8 +32,16 @@ xml = """<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
 """
 root = etree.fromstring(xml)
 
-tags = {}
-for e in root[1][0][1]:
-    if(type(e.tag) == str):
-        tags[e.tag] = e.text
-print(tags)
+def xmlToDict(root):
+    tags = {}
+    for el in root:
+        if(type(el) == etree._Element):
+            key = el.tag.split('}')[-1]
+            content = xmlToDict(el)
+            if(content == {}):
+                tags[key] = el.text
+            else:
+                tags[key] = content
+    return tags
+
+print(xmlToDict(root))
