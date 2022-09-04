@@ -1,4 +1,4 @@
-from sized_dict import SizedDict
+from dicts import SizedDict
 
 def cached(size):
 	memory = SizedDict(size)
