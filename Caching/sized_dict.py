@@ -1,4 +1,3 @@
-import subprocess
 
 class SizedDict(dict):
 	def __init__(self, size = 10):
@@ -29,23 +28,17 @@ class SizedDict(dict):
 	def __str__(self):
 		return str(self.store)
 
-a = SizedDict(5)
-a["un"] = "kimwe"
-a["deux"] = "kimwe"
-a["trois"] = "kimwe"
-a["quatre"] = "kimwe"
-a["cinq"] = "kimwe"
-a["un"] = "kimwe"
-print(a)
+	def __contains__(self, key):
+		return key in self.store
 
-# def crypt(a):
-# 	crypted = subprocess.check_output(["java", "-jar", "lumicrypt.jar", "1000"])
-# 	return crypted.decode()
-
-# import time
-
-# start = time.time()
-# for a in range(10):
-# 	print(crypt(a), end=" ")
-# end = time.time()
-# print("\n", start - end)
+if __name__ == '__main__':
+	a = SizedDict(5)
+	a["un"] = "kimwe"
+	a["deux"] = "bibiri"
+	a["trois"] = "bitatu"
+	a["quatre"] = "bine"
+	a["cinq"] = "bitanu"
+	a["un"] = "kimwe"
+	print(a)
+	a["six"] = "bitandatu"
+	print(a)
