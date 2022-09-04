@@ -1,5 +1,5 @@
 
-class SizedDict(dict):
+class SizedDict():
 	def __init__(self, size = 10):
 		self.store = dict()
 		self.KEYS = []
@@ -18,9 +18,6 @@ class SizedDict(dict):
 	def __delitem__(self, key):
 		del self.store[key]
 		self.KEYS.remove(key)
-
-	def __iter__(self):
-		return iter(self.store)
 	
 	def __len__(self):
 		return len(self.KEYS)

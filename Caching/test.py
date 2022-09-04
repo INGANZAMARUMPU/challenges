@@ -13,6 +13,6 @@ def crypt(b):
 start = time.time()
 for a in range(100):
 	b = random.randrange(0, 11)
-	print(crypt(b), end=" ")
+	print(crypt(b, f=8), end=" ")
 end = time.time()
 print("\n", start - end)
