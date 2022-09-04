@@ -1,6 +1,7 @@
 from sized_dict import SizedDict
 
-def cached(memory:SizedDict):
+def cached(size):
+	memory = SizedDict(size)
 	def decorator(fun_tocall):
 		def wrapper(*args):
 			arg = fun_tocall.__name__ + "".join([str(x) for x in args])
