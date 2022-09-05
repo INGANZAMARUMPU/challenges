@@ -9,7 +9,6 @@ def cached(size):
 			list_kwargs = sorted(kwargs.keys())
 			str_kwarg = "".join(a + str(kwargs[a]) for a in list_kwargs)
 			arg = fun_name + str_arg + str_kwarg
-			print(arg)
 			if arg in memory:
 				return memory[arg]
 			else:
