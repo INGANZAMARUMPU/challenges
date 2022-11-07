@@ -1,0 +1,157 @@
+{
+	"BUBANZA":{
+		"Bubanza":[],
+		"Bubanza":[],
+		"Gihanga":[],
+		"Musigati":[],
+		"Mpanda":[],
+		"Rugazi":[]
+	},
+	"BUJUMBURA MAIRIE":{
+		"Mukaza":[ "Buyenzi", "Bwiza", "Nyakabiga", "Rohero"],
+		"Ntahangwa":[ "Cibitoke", "Kamenge", "Kinama", "Ngagara", "Gihosha", "Buterere"],
+		"Muha":["Musaga", "Kinindo", "Kanyosha"]
+	},
+	"BUJUMBURA":{
+		"Isale":[],
+		"Kabezi":[],
+		"Kanyosha":[], 
+		"Mubimbi":[],
+		"Mugongomanga":[],
+		"Mukike":[],
+		"Mutimbuzi":[],
+		"Nyabiraba":[]
+	},
+	"BURURI":{
+		"Matana": [],
+		"Bururi": [],
+		"Mugamba": [],
+		"Rutovu": [],
+		"Songa": [],
+		"Vyanda": []
+	},
+	"RUMONGE":{
+		"Bugarama":[],
+		"Burambi":[],
+		"Buyengero":[],
+		"Muhuta":[],
+		"Rumonge":[]
+	},
+	"CANKUZO":{
+		"Cankuzo":[],
+		"Cendajuru":[],
+		"Gisagara":[],
+		"Kigamba":[],
+		"Mishiha":[]
+	},
+	"CIBITOKE":{
+		"Buganda": [],
+		"Bukinanyana": [],
+		"Mabayi": [],
+		"Mugina": [],
+		"Murwi": [],
+		"Rugombo": []
+	},
+	"GITEGA":{
+		"Bugendana":[],
+		"Bukirasazi":[],
+		"Buraza":[],
+		"Giheta":[],
+		"Gishubi":[],
+		"Gitega":[],
+		"Itaba":[],
+		"Makebuko":[],
+		"Mutaho":[],
+		"Nyarusange":[],
+		"Ryansoro":[], 
+	},
+	"KARUZI":{
+		"Bugenyuzi":[],
+		"Buhiga":[],
+		"Gihogazi":[],
+		"Gitaramuka":[],
+		"Mutumba":[],
+		"Nyabikere":[],
+		"Shombo":[]
+	},
+	"KAYANZA":{
+		"Butaganzwa":[],
+		"Gahombo":[],
+		"Gatara":[],
+		"Kabarore":[],
+		"Kayanza":[],
+		"Matongo":[],
+		"Muhanga":[],
+		"Muruta":[],
+		"Rango":[]
+	},
+	"KIRUNDO":{
+		"Bugabira": [],
+		"Busoni": [],
+		"Bwambarangwe": [],
+		"Gitobe": [],
+		"Kirundo": [],
+		"Ntega": [],
+		"Vumbi": []
+	},
+	"MAKAMBA":{
+		"Kayogoro": [],
+		"Kibago": [],
+		"Mabanda": [],
+		"Makamba": [],
+		"Nyanza-Lac": [],
+		"Vugizo": []
+	},
+	"MURAMVYA":{
+		"Bukeye": [],
+		"Kiganda": [],
+		"Mbuye": [],
+		"Muramvya": [],
+		"Rutegama": []
+	},
+	"MUYINGA":{
+		"Buhinyuza": [],
+		"Butihinda": [],
+		"Gashoho": [],
+		"Gasorwe": [],
+		"Giteranyi": [],
+		"Muyinga": [],
+		"Mwakiro": []
+	},
+	"MWARO":{
+		"Bisoro": [],
+		"Gisozi": [],
+		"Kayokwe": [],
+		"Ndava": [],
+		"Nyabihanga": [],
+		"Rusaka": []
+	},
+	"NGOZI":{
+		"Busiga":[],
+		"Gashikanwa":[],
+		"Kiremba":[],
+		"Marangara":[],
+		"Mwumba":[],
+		"Ngozi":[],
+		"Nyamurenza":[],
+		"Ruhororo":[],
+		"Tangara":[]
+	},
+	"RUTANA":{
+		"Bukemba": [],
+		"Giharo": [],
+		"Gitanga": [],
+		"Mpinga-Kayove": [],
+		"Musongati": [],
+		"Rutana": []
+	},
+	"RUYIGI":{
+		"Butaganzwa": [],
+		"Butezi": [],
+		"Bweru": [],
+		"Gisuru": [],
+		"Kinyinya": [],
+		"Nyabitsinda": [],
+		"Ruyigi": []
+	}
+}

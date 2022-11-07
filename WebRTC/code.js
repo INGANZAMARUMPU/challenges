@@ -26,6 +26,7 @@ navigator.mediaDevices.getUserMedia({
 }).then(answer => {
 	return remote_rtc.setLocalDescription(new RTCSessionDescription(answer))
 }).then(() => {
+	console.log(remote_rtc.localDescription)
 	return local_rtc.setRemoteDescription(remote_rtc.localDescription)
 })
 
